@@ -27,7 +27,7 @@ header div hgroup {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 35px;
+    margin-right: 15px;
     color: red;
 }
 
