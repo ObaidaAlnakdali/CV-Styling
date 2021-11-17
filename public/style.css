@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+p:first-child {
+    background-color: rgb(255, 120, 102);
+    margin: 50px;
+    padding: 80px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    width: 55px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
+
+p a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
+
+p:first-child:hover {
+    background-color: #fff;
+    border: 2px solid rgb(255, 120, 102);
+}
+
+p:first-child:hover a {
+    color: rgb(255, 120, 102);
+    font-weight: bold;
+}
+
+
+p:last-child {
+    background-color: rgb(63, 163, 180);
+    margin: 50px;
+    padding: 80px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    width: 55px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
+
+p:last-child:hover a  {
+    color: rgb(63, 163, 180);
+    font-weight: bold;
+}
+
+p:last-child:hover {
+    background-color: #fff;
+    border: 2px solid rgb(63, 163, 180);
+}
+
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+}
+
