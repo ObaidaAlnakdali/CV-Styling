@@ -239,6 +239,7 @@ hgroup h2 {
     #about p {
         color: #a6a6a6;
         font-style: italic;
+        text-align: justify;
     }
 
     body > div {
